@@ -19,7 +19,7 @@
       margin: 0;
       padding: 0;
       font-family: "Poppins";
-      background: #e3e9f7;
+      background: #BDD4E7;
     }
 
     nav ul{
@@ -30,7 +30,7 @@
       position: fixed;
       top: 0;
       left: 0;
-      background-color: #2b2626;
+      background-color: #0B4F6C;
     }
 
     nav ul li{
@@ -45,7 +45,7 @@
       font-size: 20px;
       color: #fff;
       position: relative;
-      padding: 25px 0 25px 25px;
+      padding: 25px 0 25px 0px;
     }
     
       #title{
@@ -59,16 +59,51 @@
       padding: 25px 0 25px 25px;
     }
     
+          #caption{
+      display: block;
+      font-family: "Poppins";
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: #fff;
+      position: relative;
+      padding: 25px 0 25px 25px;
+    }
+    
     nav ul li a:before{
     content:"";
     position: absolute;
     top: 0;
     width: 0;
     height: 100%;
-    background: #e3e9f7;
-    border-radius: 40px 0 0 40px;
+    background: #01BAEF;
+    border-radius: 0;
     z-index: -1; 
     transition: all 300ms ease-in-out;
+    }
+    
+    nav ul li a:hover:before{
+    width: 100%;
+    }
+    
+    .wrapper{
+    margin-left: 260px;
+    }
+    
+    .section{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+    }
+    
+    .box-area h2{
+    text-transform: uppercase; 
+    font-size: 50px;
+    }
+    
+    .box-area{
+    width: 75%;
     }
     
   </style>
@@ -79,11 +114,13 @@
   <nav>
     <ul>
       <li id="title"><b>Jailbreak Duper v.3.04</b></li>
-      <li><a href="#"><i class="a"></i> &nbsp; home</a></li>
-      <li><a href="#"><i class="a"></i> &nbsp; home</a></li>
-      <li><a href="#"><i class="a"></i> &nbsp; home</a></li>
-      <li><a href="#"><i class="a"></i> &nbsp; home</a></li>
-      <li><a href="#"><i class="a"></i> &nbsp; home</a></li>
+      <li><a href="#"><i class="a"></i> &nbsp; About this page</a></li>
+      <li><a href="#"><i class="a"></i> &nbsp; JB Duper v.3.04</a></li>
+      <li><a href="#"><i class="a"></i> &nbsp; MM2 duper v.5.3</a></li>
+      <li><a href="#"><i class="a"></i> &nbsp; Blox Fruits Farmer</a></li>
+      <li><a href="#"><i class="a"></i> &nbsp; Bee Swarm Macro</a></li>
+      <br><br>
+      <li id="caption"><b>Links currently broken</b></li>
     </ul>
   </nav>
 
