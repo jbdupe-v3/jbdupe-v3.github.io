@@ -105,6 +105,20 @@
     .box-area{
     width: 75%;
     }
+
+  .video-container{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
+}
+
+.video-container video {
+  max-width: 80%;   /* responsive width */
+  max-height: 80%;  /* responsive height */
+  border-radius: 5px; /* optional rounded corners */
+}
     
   </style>
   
@@ -132,6 +146,12 @@
     </div>
   </div>
 
+  <div class="video-container">
+    <video controls>
+      <source src="https://www.youtube.com/watch?v=jNQXAC9IVRw">
+    </video>
+  </div>
+  
 </body>
   
 </html>
