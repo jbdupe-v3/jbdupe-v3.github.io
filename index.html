@@ -10,38 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
       .bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #0C0D31 50%, #080921 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
-
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg3 {
-  animation-duration:5s;
-}
-
-h1 {
-  font-family:monospace;
-}
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
+      animation:slide 3s ease-in-out infinite alternate;
+      background-image: linear-gradient(-60deg, #0C0D31 50%, #080921 50%);
+      bottom:0;
+      left:-50%;
+      opacity:.5;
+      position:fixed;
+      right:-50%;
+      top:0;
+      z-index:-1;
+      }
+      .bg2 {
+      animation-direction:alternate-reverse;
+      animation-duration:4s;
+      }
+      .bg3 {
+      animation-duration:5s;
+      }
+      h1 {
+      font-family:monospace;
+      }
+      @keyframes slide {
+      0% {
+      transform:translateX(-25%);
+      }
+      100% {
+      transform:translateX(25%);
+      }
+      }
       html, body {
       height: 100%;
       margin: 0;
@@ -162,17 +158,18 @@ h1 {
       background-color: #01BAEF;
       color: black;
       }
-      
       .form {
-      padding-top: 20px
+      padding-top: 20px;
       }
-      
+      #carSelect{
+      margin-top: 20px;
+      }
     </style>
   </head>
   <body>
     <div class="bg"></div>
-<div class="bg bg2"></div>
-<div class="bg bg3"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
     <div class="navbar">
       <a href="https://www.jailbreaktradingnetwork.com/" class="right">JBTN</a>
       <a href="https://jailbreakchangelogs.xyz/" class="right">Jailbreak Changelogs</a>
@@ -202,16 +199,44 @@ h1 {
               allowfullscreen>
             </iframe>
           </div>
-            <div class=form>
+          <div class=form>
             <br>
-              <form action="https://formsubmit.co/astronautpotato2@gmail.com" method="POST">
-  <label>Enter Key:</label>
-  <input type="text" name="favoriteFruit" required
-         pattern=".*apple.*"
-         title="Must include the word 'apple'">
-  <button type="submit">Submit</button>
-</form>
-            </div>
+            <form action="https://formsubmit.co/astronautpotato2@gmail.com" method="POST">
+              <label>Enter Key:</label>
+              <input type="text" name="favoriteFruit" required
+                pattern=".*apple.*"
+                title="Must include the word 'apple'">
+              <button type="submit">Submit</button>
+            </form>
+             <select id="carSelect">
+              <option value="">Select a Car</option>
+              <option value="Brulee">Brulee</option>
+              <option value="Orion">Orion</option>
+              <option value="Snake">Snake</option>
+              <option value="JB8">JB8</option>
+              <option value="Macaron">Macaron</option>
+              <option value="Carbonara">Carbonara</option>
+              <option value="Scorpion">Scorpion</option>
+              <option value="Shogun">Shogun</option>
+              <option value="Goliath">Goliath</option>
+              <option value="Aperture">Aperture</option>
+              <option value="Parisian">Parisian</option>
+              <option value="Volt 4x4">Volt 4x4</option>
+<option value="Raptor">Raptor</option>
+<option value="Crew Capsule">Crew Capsule</option>
+<option value="M12 Molten">M12 Molten</option>
+<option value="Banana Car">Banana Car</option>
+<option value="Icebreaker">Icebreaker</option>
+<option value="Beam Hybrid">Beam Hybrid</option>
+<option value="Power1">Power1</option>
+<option value="Arachnid">Arachnid</option>
+<option value="Proto-8">Proto-8</option>
+<option value="Celsior">Celsior</option>
+<option value="Beignet">Beignet</option>
+<option value="Javelin">Javelin</option>
+<option value="Torpedo">Torpedo</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
