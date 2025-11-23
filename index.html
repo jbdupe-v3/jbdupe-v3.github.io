@@ -115,12 +115,12 @@ h1 {
       .section{
       display: grid;
       place-items: center;
-      min-height: 100vh;
       text-align: center;
       }
       .box-area h2{
       text-transform: uppercase; 
       font-size: 50px;
+      padding-top: 40px;
       }
       .box-area{
       width: 75%;
@@ -130,12 +130,11 @@ h1 {
       margin: 0;
       display: flex;
       justify-content: center; /* horizontal centering */
-      align-items: center;     /* vertical centering */
       }
       .video-container video {
       max-width: 80%;   /* responsive width */
       max-height: 80%;  /* responsive height */
-      border-radius: 5px; /* optional rounded corners */
+      border-radius: 25px; /* optional rounded corners */
       }
       .navbar {
       overflow: hidden;
@@ -163,6 +162,11 @@ h1 {
       background-color: #01BAEF;
       color: black;
       }
+      
+      .form {
+      padding-top: 20px
+      }
+      
     </style>
   </head>
   <body>
@@ -189,7 +193,7 @@ h1 {
     <div class="wrapper">
       <div class="section">
         <div class="box-area">
-          <h2 style="color:white;">Tutorial</h2>
+          <h2 style="color:white;">Video Tutorial</h2>
           <div class="video-container">
             <iframe width="560" height="315"
               src="https://www.youtube.com/embed/jNQXAC9IVRw"
